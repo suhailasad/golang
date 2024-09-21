@@ -1,6 +1,5 @@
 {{
-	def is_alpine:
-		env.variant | startswith("alpine")
+	def isenv.variant | startswith("alpine")
 	;
 	def alpine_version:
 		env.variant | ltrimstr("alpine")
